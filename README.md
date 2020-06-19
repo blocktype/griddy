@@ -1,12 +1,6 @@
-# MortyBot 
+# Griddy
 
-MortyBot is a Python bot implementing several strategies. It can work with any assets pair on the WAVES DEX and TurtleNetwork DEX.
-
-The bot is based on https://github.com/BlackTurtle123/BlackBotTN and https://github.com/wavesplatform/demo-python-trading-bot
-
-The main reason for creating my own bot and not using the two above was that i was constantly running into errors/problems when trying out different trading pairs. Initially i tried just fixing the errors as they popped up, but in the end i thought it would be easier to create a new bot where i could work out all the kinks and integrate more strategies.
-
-Currently included strategies are: GRID, SCALP, UPTREND and MOVING_GRID
+Griddy is a Python bot based on Mortybot https://github.com/iammortimer/MortyBot, https://github.com/BlackTurtle123/BlackBotTN and https://github.com/wavesplatform/demo-python-trading-bot
 
 ## Grid Trading
 Grid trading doesn’t care about which way the market’s going — in fact, as a profitable strategy it works best in ranging markets. The strategy places a ladder of sells at regular intervals above market price, and another ladder of buys beneath it. If a sell is filled, those funds are used to place a buy just beneath that sell. Thus you can think of the grid as a series of pairs of buys/sells stretching up and down the price chart, with either the buy or sell in each pair always active.
